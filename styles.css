@@ -1,3 +1,65 @@
-body {
-  background:#f0f;
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+* {
+  box-sizing: border-box;
 }
+
+:root {
+  --primary-color: #6a513b;
+  --secondary-color: #9c9078;
+}
+
+body {
+  font-family: 'Stick', sans-serif;
+  margin: 0;
+}
+
+/* header */
+header {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 2rem;
+  text-align: center;
+}
+
+/* textarea */
+#input-txt {
+  display: block;
+  width: 60%;
+  height: 20vh;
+  margin: 2rem auto;
+  padding: .7rem;
+}
+
+/* button */
+#btn-translate {
+  display: block;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 1.5rem;
+  margin: 2rem auto;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  font-family: 'Stick', sans-serif;
+}
+
+/* output div */
+
+#output-div {
+  border: 1px solid var(--primary-color);
+  width: 60%;
+  height: 20vh;
+  margin: 2rem auto;
+}
+
+/* footer */
+#footer {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 3rem;
+  margin-top: 4rem;
+  text-align: center;
+  height: 20%;
+}
+
